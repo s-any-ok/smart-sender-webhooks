@@ -1,0 +1,32 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  padding: 48px 16px;
+  text-align: center;
+}
+
+.icon {
+  margin-bottom: 6px;
+}
+
+.title {
+  margin: 0;
+  font-weight: 600;
+  color: var(--color-text);
+}
+
+.danger .title {
+  color: var(--color-danger);
+}
+
+.description {
+  margin: 0;
+  max-width: 420px;
+  color: var(--color-text-muted);
+}
+
+.action {
+  margin-top: 10px;
+}
